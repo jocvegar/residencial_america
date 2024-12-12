@@ -24,7 +24,7 @@
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #444444; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #2eca6a; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #d57302; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -841,7 +841,7 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about .content .who-we-are {
+/* .about .content .who-we-are {
   text-transform: uppercase;
   margin-bottom: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
@@ -904,12 +904,12 @@ section,
 
 .about .about-images img {
   border-radius: 10px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Stats Section
 --------------------------------------------------------------*/
-.stats .stats-item {
+/* .stats .stats-item {
   background-color: var(--surface-color);
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -934,12 +934,12 @@ section,
   margin: 0;
   font-family: var(--heading-font);
   font-size: 16px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
-.features .features-image {
+/* .features .features-image {
   position: relative;
   min-height: 400px;
 }
@@ -1017,12 +1017,12 @@ section,
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
-.service-details .service-box {
+/* .service-details .service-box {
   background-color: var(--surface-color);
   padding: 20px;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
@@ -1153,7 +1153,7 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact Section
